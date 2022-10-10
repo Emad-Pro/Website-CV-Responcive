@@ -1,0 +1,478 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navication {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    padding-bottom: 40px;
+    background-color: #fff;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    display: block;
+    float: right;
+    position: relative;
+    top: 0;
+}
+
+
+
+@media (min-width:481px) and (max-width:90000px) {
+    .continer {
+        background-color: #F2EEEB;
+        margin: 0;
+        padding: 0;
+        width: auto;
+    }
+
+    .continer .about-me {
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        margin: 20px 1% 20px 1%;
+        background-color: #fff;
+        min-width: auto;
+        width: 30%;
+        display: block;
+        float: left;
+    }
+
+    .continer .work-exp {
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        float: left;
+        margin: 20px auto 20px 0;
+        width: 65%;
+        overflow: hidden;
+        background-color: #fff;
+    }
+
+    .education {
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        float: left;
+        margin: 0 auto 20px 0;
+        width: 65%;
+        overflow: hidden;
+        background-color: #fff;
+    }
+}
+
+.navication {
+    display: none;
+}
+
+@media(min-width:1px) and (max-width:720px) {
+    .continer {
+        background-color: #EDE9E6;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navication {
+        
+        display: block;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        padding-bottom: 0;
+        background-color: #fff;
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+        position: relative;
+        z-index: 2;
+        float: right;
+        margin-bottom: 10px;
+        position: fixed
+    }
+
+    .navication ul li {
+        list-style-type: none;
+        float: right;
+
+    }
+
+    .navication h3 {
+        font-family:cursive;
+        display: block;
+        float: left;
+        color: #fff;
+        font-weight: bolder;
+        font-size: 15px;
+        line-height: 35px;
+        background-color: #00416d;
+        border-radius: 50%;
+        margin-left: 10px;
+
+        text-decoration: overline ;
+    }
+    .navication span{
+        color: #000;
+        text-decoration: underline;
+        font-family:monospace;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    .navication ul li a {
+        color: #00416d;
+        margin: 2px;
+        padding: 3px 10px;
+        display: block;
+        text-decoration: none
+    }
+
+    .navication ul li a:hover {
+        color: #fff;
+        border-radius: 10px;
+        background-color: #00416d;
+
+    }
+
+    .continer {
+        background-color: #F2EEEB;
+        margin: 0;
+        padding: 0;
+    }
+
+    .continer .about-me {
+        padding-top: 50px;
+        margin: 0 0 0 0;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        padding-bottom: 40px;
+        background-color: #fff;
+        width: 100%;
+        display: block;
+        float: none;
+    }
+
+    .continer .work-exp {
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        float: none;
+        margin: 20px auto 20px 0;
+        width: 100%;
+        overflow: hidden;
+        background-color: #fff;
+    }
+
+    .education {
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        float: none;
+        margin: 0 auto 20px 0;
+        width: 100%;
+        overflow: hidden;
+        background-color: #fff;
+    }
+}
+
+.continer .about-me .about-me-title {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.continer .about-me .about-me-title img {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.continer .about-me .about-me-title > span {
+    /*border: solid 1px #757575;*/
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    top: 82%;
+    padding: 5px;
+    left: 1%;
+    z-index: 50px;
+    color: #00416d;
+    display: block;
+    overflow: hidden;
+    font-family: "Courier New", Courier, monospace;
+    position: absolute;
+}
+
+.continer .about-me .about-me-contact {
+    border-bottom: 1px solid #EDE9E6;
+}
+
+.continer .about-me .about-me-contact i,
+i {
+    overflow: hidden;
+    display: inline;
+    padding: 10px;
+    color: #00416d;
+}
+
+.continer .about-me .about-me-contact span {
+    padding: 10px;
+    display: inline-block;
+}
+
+.continer .about-me .about-me-skills {}
+
+.continer .about-me .about-me-skills h3 {
+    vertical-align: -5px;
+    font-family: fantasy;
+    font-weight: bold;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 21px;
+    padding: 5px;
+    letter-spacing: 3px;
+    color: #757575;
+}
+
+.continer .about-me .about-me-skills i {
+    padding-right: 10px;
+    font-size: 22px;
+}
+
+.continer .about-me .about-me-skills h4 {
+    color: #757575;
+    margin: 20px;
+}
+
+.continer .about-me .about-me-skills > div {
+    border-radius: 10px;
+    margin: auto;
+    width: 80%;
+    margin-left: 20px;
+    height: 10%;
+    background-color: #F1F1F1;
+}
+
+.continer .about-me .about-me-skills div div span {
+    color: #fff;
+    text-align: center;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.continer .about-me .about-me-skills > div .photoshop {
+    background-color: #00416d;
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.continer .about-me .about-me-skills > div .photography {
+    background-color: #00416d;
+    width: 35%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.continer .about-me .about-me-skills > div .illustrator {
+    background-color: #00416d;
+    width: 95%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.continer .about-me .about-me-skills > div .media {
+    background-color: #00416d;
+    width: 80%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.continer .about-me .about-me-lang {
+    margin: 20px 10px;
+}
+
+.continer .about-me .about-me-lang h3 {
+    font-family: fantasy;
+    font-weight: bold;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 5px 0;
+    letter-spacing: 1px;
+    color: #757575;
+}
+
+.continer .about-me .about-me-lang i {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.continer .about-me .about-me-lang h4 {
+    color: #757575;
+    margin: 15px 20px;
+}
+
+.continer .about-me .about-me-lang > div {
+    border-radius: 10px;
+    margin: auto;
+    width: 80%;
+    height: 20px;
+    margin-left: 20px;
+    height: auto;
+    background-color: #F1F1F1;
+}
+
+.continer .about-me .about-me-lang > div .en {
+    width: 60%;
+    border-radius: 10px;
+    background-color: #00416d;
+}
+
+.continer .about-me .about-me-lang > div div span {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    overflow: hidden;
+    display: block;
+}
+
+.continer .about-me .about-me-lang > div .tr {
+    width: 30%;
+    border-radius: 10px;
+    background-color: #00416d;
+}
+
+.continer .work-exp {
+    float: left;
+}
+
+.continer .work-exp i {
+    display: inline;
+    font-size: 30px;
+    margin: 20px 0 40px 10px;
+}
+
+.continer .work-exp h2 {
+    display: inline-block;
+    font-size: 25px;
+    margin: 20px 10px 40px;
+    font-weight: lighter;
+    color: #757575;
+}
+
+.continer .work-exp h4 {
+    margin: 20px 40px;
+    color: #757575;
+}
+
+.continer .work-exp p {
+    margin: 20px 40px;
+    color: #757575;
+}
+
+.continer .work-exp .work-exp-top-date,
+.continer .work-exp .work-exp-center {
+    border-bottom: solid 1px #EDE9E6;
+}
+
+.continer .work-exp .work-exp-top-date i {
+    font-size: 17px;
+    margin: 0;
+    padding: 0 0 0 40px;
+    overflow: hidden;
+    display: inline;
+}
+
+.continer .work-exp .work-exp-top-date div,
+.continer .work-exp .work-exp-center .work-exp-center-date span {
+    color: #00416d;
+    margin: 20px 10px;
+    font-size: 17px;
+    display: inline;
+}
+
+.continer .work-exp .work-exp-center .work-exp-center-date span {
+    margin: 0 0 0 40px;
+    font-size: 17px;
+}
+
+.continer .work-exp .work-exp-top-date div span {
+    border-radius: 7px;
+    font-size: 15px;
+    color: white;
+    background-color: #00416d;
+    padding: 5px;
+}
+
+.continer .education .education-up i {
+    display: inline;
+    font-size: 30px;
+    margin: 20px 0 40px 10px;
+}
+
+.continer .education .education-up h2 {
+    display: inline-block;
+    font-size: 25px;
+    margin: 20px 10px 40px;
+    font-weight: lighter;
+    color: #757575;
+}
+
+.continer .education .education-up h4 {
+    display: block;
+    font-weight: lighter;
+    color: #757575;
+    font-size: 17px;
+    margin: 10px 0 20px 40px;
+}
+
+.continer .education .education-up i[class="fa fa-calendar fa-fw w3-margin-right"] {
+    display: inline;
+    font-size: 20px;
+    padding: 0%;
+    margin: 10px 0 20px 40px;
+}
+
+.continer .education .education-up span {
+    display: inline-block;
+    font-size: 15px;
+    margin: 0 0 20px 10px;
+    color: #00416d;
+}
+
+.continer .education .education-up p {
+    font-size: 14px;
+    margin: 0 0 20px 40px;
+}
+
+.continer .education .education-center h3 {
+    display: block;
+    font-size: 17px;
+    margin: 20px 40px 10px;
+    font-weight: lighter;
+    color: #757575;
+}
+
+.continer .education .education-center i {
+    display: inline;
+    font-size: 20px;
+    padding: 0%;
+    margin: 10px 0 20px 40px;
+}
+
+.continer .education .education-center span {
+    display: inline-block;
+    font-size: 15px;
+    margin: 0 10px 20px;
+    font-weight: lighter;
+    color: #00416d;
+}
+
+.continer .education .education-center p {
+    margin: 0 10px 40px 40px;
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 5px;
+    display: block;
+    padding: 0;
+}
+
+.footer {
+    width: 100%;
+    display: block;
+    height: 10%;
+    background-color: #00416d;
+    overflow: hidden;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
